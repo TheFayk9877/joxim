@@ -1,0 +1,192 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:system-ui;
+
+}
+nav{
+width: 100%;
+
+display: flex;
+padding: 0px 10%;
+
+}
+.collection{
+display: flex;
+margin-left: 100px;
+list-style: none;
+flex: 1;
+
+}
+.item{
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 70px 10px 15px 10px;
+    border-radius: 0px 0px 5px 5px;
+    transition: 0.3s;
+
+}
+.item:hover{
+    background: #99baed;
+    color: white;
+    cursor: pointer;
+}
+.nav_icon{
+display: flex;
+align-items: center;
+}
+.nav_icon img{
+width: 30px;
+margin-right: 30px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:none ;
+    background: #99baed;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 15px #99baed;
+}
+.scissor{
+    transform: translate(20px, 10px );
+    transition: 0.5s;
+}
+.scissor:hover{
+    transform: translate(10px, 10px ) rotate(-30deg);
+
+}
+.banner{
+
+    width: 100%;
+    height: 550px;
+   
+    display: flex;
+    padding-left: 10%;
+}
+.banner_text{
+width: 40%;
+height: 100%;
+
+
+}
+.banner_image{
+    width: 60%;
+    height: 100%;
+    background:url("./img/banner1.svg") no-repeat center/cover; 
+}
+.banner_text h1{
+font-size: 60px;
+font-weight: 400;
+
+
+}.banner_text h1 span{
+
+    color: gold;
+}.banner_text p{
+    padding: 30px 0;
+    width: 60%;
+    font-weight: 200;
+}
+.history{
+width: 100%;
+height: 500px;
+text-align: center;
+display: flex;
+padding: 0 10%
+}
+.history_img,
+.history_text{
+width: 50%;
+height: 100%;
+
+
+}
+.history_img{
+background: url("./img/banner2.svg") no-repeat center/contain;
+
+}
+.cssd{
+color: gold;
+
+
+
+}
+.cdd{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:none ;
+    background: #99baed;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 15px #99baed;
+    margin-right: 60%;
+}
+.cards{
+text-align: center;
+padding-top: 10%;
+
+}
+.sss{
+color: gold;
+
+}
+.cardc{
+width: 100%;
+height: 500%;
+display: flex;
+margin: auto;
+transition: 0.3s;
+align-items: center;
+}
+.ites{
+width: 100px;
+height:650px;
+padding: 70px 10px 15px 10px;
+border-radius: 15px 15px 15px 15px;
+transition: 0.3s;
+list-style: none;
+flex: 1;
+background: whitesmoke;
+margin-right: 2%;
+align-items: center;
+
+}
+.wering{
+text-align: center;
+padding-top:30%;
+
+}
+.xssx{
+width: 100px;
+margin-left: 40%;
+
+}
+.ites:hover{
+    background: #1f74f3;
+    color: white;
+    cursor: pointer;
+    
+} 
+.sima{
+    width: 100px;
+    margin-left: 40%;
+}
+.mmm{
+
+    width: 100px;
+    margin-left: 40%;
+    
+}
+.ggg{
+width: 100%;
+height: 500px;
+border: 1px solid blueviolet;
+
+
+}
+.p{
+text-align: center;
+
+}

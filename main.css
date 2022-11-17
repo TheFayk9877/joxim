@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+.main{
+width: 100%;
+height: 100vh;
+background: #444;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card{
+width: 300px;
+height: 500px;
+background: #fff;
+border-radius: 15px;
+
+}
+.card_f{
+background: linear-gradient(120deg,#ff865a,#f85b22);
+    width: 100%;
+    height: 50%;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    position: relative;
+
+}
+.card_p{
+width: 100%;
+height: 50%;
+background: #f7f7f7;
+border-radius: 0 0 15px 15px;
+padding: 20px;
+align-items: center;
+}
+.card_f h3{
+color: #f7f7f7;
+}
+.card_f p{
+color: #fff;
+font-size: 14px;
+padding-top: 15px;
+
+}
+.photo{
+width: 280px;
+position: absolute;
+top: 20px;
+right: -70px;
+filter: hue-rotate(120deg);
+z-index: 2;
+transition: 0.3s;
+}
+.fast{
+position: absolute;
+left: 0;
+bottom: 0;
+font-size: 100px;
+color: #8204;
+}
+.card:hover .photo{
+transform: rotate(-10deg) scale(1.2);
+filter: hue-rotate(230deg);
+
+}
+.clas{
+width: 50px;
+height: 20px;
+background-color: rgb(13, 223, 13);
+border-radius: 10px;
+border: none;
+text-align: center;
+margin-left:60%   ;
+
+}
+.manid{
+width: 20px;
+height: 20px;
+background-color:red;
+border: none;
+border-radius: 10px;
+}
+.mani{
+    width: 20px;
+    height: 20px;
+    background-color:green;
+    border: none;
+    border-radius: 10px;
+
+}
+.manin{
+    width: 20px;
+    height: 20px;
+    background-color:yellow;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.devmisan{
+width: 200px;
+height: 25px;
+background-color: dodgerblue;
+margin-left:60%;
+border: none;
+border-radius: 10px;
+}
+
+    
+
